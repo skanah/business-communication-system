@@ -1,0 +1,25 @@
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.suo
+*.sw?
+
+# AI tooling workspace
+.qodo/
+
+# Local databases (never commit runtime data)
+backend/database/*.sqlite
+backend/database/*.sqlite-journal
+
+# Environment files (defense in depth; per-app .gitignore also cover these)
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
